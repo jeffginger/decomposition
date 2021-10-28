@@ -1,9 +1,9 @@
-import subproblem
+from subproblem import SubProblem
 
 class MasterProblem():
 
     def __init__(self) -> None:
-        _subproblemlist = list(subproblem)
+        _subproblemlist = list()
         _coupling_constraints = None
         _coupling_objfunct_term = None
 
